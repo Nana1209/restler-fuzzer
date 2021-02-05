@@ -28,7 +28,7 @@ module SchemaUtilities =
                 | "double" ->
                     PrimitiveType.Number, "1.23" // Note: quotes are intentionally omitted.
                 | _ ->
-                    printfn "found unsupported format: %s" format
+                    //printfn "found unsupported format: %s" format
                     defaultStringType
             else
                 defaultStringType

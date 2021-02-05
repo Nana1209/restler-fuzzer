@@ -687,7 +687,7 @@ let getRequests(requests:Request list) includeOptionalParameters =
                 sprintf "primitives.restler_static_string(%s)" s
             | Restler_fuzzable_string s ->
                 if String.IsNullOrEmpty s.defaultValue then
-                    printfn "ERROR: fuzzable strings should not be empty.  Skipping."
+                    //printfn "ERROR: fuzzable strings should not be empty.  Skipping."
                     ""
                 else
                     let str, delim = quoteStringForPythonGrammar s.defaultValue

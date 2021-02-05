@@ -16,6 +16,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Program.fs" />
+    <Content Include="runtimeconfig.template.json" />
     <Content Include="packages.lock.json" />
   </ItemGroup>
   <ItemGroup>
